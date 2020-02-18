@@ -8,7 +8,6 @@ import { Provider } from 'react-redux';
 import { setTextFilter } from './actions/filters';
 import './styles/styles.scss';
 import 'normalize.css/normalize.css';
-import { SingleDatePicker } from 'react-dates';
 import 'react-dates/lib/css/_datepicker.css';
 
 
@@ -25,6 +24,6 @@ const jsx = (
     </Provider>
 
 );
-console.log(visibleExpenses);
+
 
 ReactDOM.render(jsx, document.getElementById('app'));
