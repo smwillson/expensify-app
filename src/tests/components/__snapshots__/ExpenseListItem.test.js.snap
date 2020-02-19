@@ -6,16 +6,14 @@ exports[`should render an expense list item 1`] = `
     replace={false}
     to="/edit/1"
   >
-     
     <h3>
       rent
     </h3>
   </Link>
-  <div>
-     
-    19500
-     
-    0
-  </div>
+  <p>
+    $195.00
+    -
+    December 31st, 1969
+  </p>
 </div>
 `;
